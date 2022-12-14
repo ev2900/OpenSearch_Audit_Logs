@@ -1,1 +1,1 @@
-# OpenSearch_Audit_Logs
+# OpenSearch Audit Logs
