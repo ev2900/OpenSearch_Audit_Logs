@@ -23,4 +23,4 @@ Log into the OpenSearch dashboard, navigate to the security page, then to the au
 
 Logging on the REST layer is now enabled. Make several requests to the OpenSearch domain to generate logs
 
-3. View REST audi logs in CloudWatch
+3. View REST audit logs in CloudWatch
