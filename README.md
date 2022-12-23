@@ -16,3 +16,6 @@ Navigate to the OpenSearch page on the AWS console, select your domain, select t
 Follow the prompts to create a CloudWatch log group and access policy
 
 2. Enable audit logs - OpenSearch Dashboard
+
+Log into the OpenSearch dashboard, navigate to the security page, then to the audit logs section. Enable the rest layer audit. Enable logging of the rest body if desired.
+
