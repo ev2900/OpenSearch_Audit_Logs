@@ -7,6 +7,12 @@ Audit logs are grouped into 2 different categories
 
 In this example we can explore how to enable REST layer audit logs and find search operations within these logs
 
-1. Enable audit logs
+1. Enable audit logs - AWS Console
 
 Navigate to the OpenSearch page on the AWS console, select your domain, select the logs section and then enable audit logs
+
+<img width="600" alt="os-deleted-document-api" src="https://github.com/ev2900/OpenSearch_Audit_Logs/blob/main/README/OpenSearch_Enable_Audit_Logs.PNG">
+
+Follow the prompts to create a CloudWatch log group and access policy
+
+2. Enable audit logs - OpenSearch Dashboard
