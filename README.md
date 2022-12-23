@@ -17,5 +17,10 @@ Follow the prompts to create a CloudWatch log group and access policy
 
 2. Enable audit logs - OpenSearch Dashboard
 
-Log into the OpenSearch dashboard, navigate to the security page, then to the audit logs section. Enable the rest layer audit. Enable logging of the rest body if desired.
+Log into the OpenSearch dashboard, navigate to the security page, then to the audit logs section. Enable the REST layer audit. Enable logging of the REST body if desired.
 
+<img width="600" alt="os-deleted-document-api" src="https://github.com/ev2900/OpenSearch_Audit_Logs/blob/main/README/OpenSearch_Enable_REST_Audit_Logs.PNG">
+
+Logging on the REST layer is now enabled. Make several requests to the OpenSearch domain to generate logs
+
+3. View REST audit logs in CloudWatch
