@@ -1,10 +1,10 @@
 # OpenSearch Audit Logs
 
-<img width="85" alt="map-user" src="https://img.shields.io/badge/views-0000-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-0000-green">
+<img width="85" alt="map-user" src="https://img.shields.io/badge/views-031-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-0000-green">
 
-[OpenSearch audit logs](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/audit-logs.html) can be used to help determine the search request loads on a given domain. 
+[OpenSearch audit logs](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/audit-logs.html) can be used to help determine the search request loads on a given domain.
 
-Audit logs are grouped into 2 different categories 
+Audit logs are grouped into 2 different categories
 * REST layer - communication with HTTP clients ie. all HTTP requests that arrive at the cluster
 * Transport layer - communication between nodes
 
@@ -28,7 +28,7 @@ Logging on the REST layer is now enabled. Make several requests to the OpenSearc
 
 3. View REST audit logs in CloudWatch
 
-The audit logs will be populated in the CloudWatch log group you created or selected when you enabled audit logs. Navigate to the CloudWatch log group and then log stream. You can search the log stream for ```_search``` 
+The audit logs will be populated in the CloudWatch log group you created or selected when you enabled audit logs. Navigate to the CloudWatch log group and then log stream. You can search the log stream for ```_search```
 
 <img width="600" alt="CloudWatch_search" src="https://github.com/ev2900/OpenSearch_Audit_Logs/blob/main/README/CloudWatch_search.PNG">
 
