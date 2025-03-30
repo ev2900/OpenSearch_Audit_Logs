@@ -1,6 +1,6 @@
 # OpenSearch Audit Logs
 
-<img width="85" alt="map-user" src="https://img.shields.io/badge/views-172-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-089-green">
+<img width="85" alt="map-user" src="https://img.shields.io/badge/views-172-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-092-green">
 
 [OpenSearch audit logs](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/audit-logs.html) can be used to help determine the search request loads on a given domain.
 
